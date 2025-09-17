@@ -1,0 +1,20 @@
+# Build
+target/
+out/
+
+# IDE
+.idea/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper download cache
+.mvn/wrapper/maven-wrapper.jar
