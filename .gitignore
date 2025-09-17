@@ -1,20 +1,17 @@
-# Build
+# Ignore IDE configs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Ignore build outputs
 target/
 out/
 
-# IDE
-.idea/
-*.iml
-*.classpath
-*.project
-.settings/
-
-# Logs
+# Ignore logs
 *.log
 
-# OS files
-.DS_Store
+# Ignore OS junk
 Thumbs.db
-
-# Maven wrapper download cache
-.mvn/wrapper/maven-wrapper.jar
+.DS_Store
