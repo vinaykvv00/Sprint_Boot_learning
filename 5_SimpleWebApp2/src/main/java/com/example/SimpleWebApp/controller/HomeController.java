@@ -10,7 +10,6 @@ public class HomeController {
     public String greet()
     {
         return "welcome to simple spring boot";
-
     }
 
     @RequestMapping("/about")
