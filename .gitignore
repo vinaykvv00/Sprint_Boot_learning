@@ -1,0 +1,50 @@
+# Root & submodule Maven target directories
+**/target/
+
+# Keep source directories (negations not strictly needed unless over-aggressive patterns used)
+# !**/src/main/**
+# !**/src/test/**
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# VS Code (if ever used)
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Copilot migration files
+.idea/copilot.data.migration.*
+
+# Java bytecode & packaged artifacts
+*.class
+*.jar
+*.war
+
+# Temporary / swap files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Maven wrapper (KEEP these files tracked) - do NOT ignore
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+# mvnw and mvnw.cmd are not ignored by default; ensure they stay tracked.
+
+# If using Lombok delombok output later (uncomment as needed)
+# delombok/
+
+# Generated annotations (optional - remove if you want them)
+**/generated-sources/
+
+# Security / secrets (add if created later)
+# application-*.properties
+# *.env
