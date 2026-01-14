@@ -1,4 +1,4 @@
-package com.telusko.SpringSecEX;
+package com.telusko.SpringSecEX.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
